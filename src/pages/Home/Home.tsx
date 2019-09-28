@@ -1,10 +1,14 @@
+
+
+
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { IonApp, IonPage } from '@ionic/react';
 import './App.css';
 
-class App extends Component {
 
-  
+
+class Home extends Component {
   render() {
     return (
         <IonApp>
@@ -15,4 +19,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
